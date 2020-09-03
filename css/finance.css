@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat';
+    
+    
+}
+h3{
+    font-weight: bold;
+}
+.certificates{
+padding-top:5%;
+}
+.certi-slide{
+    height: 300px;
+   background-image:linear-gradient(to right,rgba(253, 225, 69, 0.925),transparent,rgba(253, 225, 69, 0.925));
+   border-radius: 10px;
+    max-width: 70%;
+  
+}
+.certi-head{
+    font-weight: bold;
+    font-size:36px;
+    color:darkslategray;
+}
+
+
+.btn{
+    white-space: normal;
+    font-weight: bold;
+}
+.links{
+    margin:0;
+}
+.faq{
+    max-width:70%;
+    padding-top:5%;
+    padding-bottom:3%;
+}
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: white;
+    border-radius: unset;
+    padding-left:0;
+}
+
+a.card-link.collapsed{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a.card-link {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.card-body {
+    color: rgb(107, 107, 107);
+    font-size:12px;
+}
+
+a.nav-link.active.show {
+    background-color: gold;
+}
+a.nav-link {
+    background-color: #343a40;
+    transition:0.2s all;
+    padding:25px 10px;
+    color:white;
+    border: none !important;
+    border-radius: unset !important;
+}
+a.nav-link.active {
+    background-color: gold !important;
+}
+.nav-tabs .nav-link:hover {
+    background-color:#535c66;
+
+
+}
+
+.col-sm-6 {
+   padding-top:3%;
+   padding-bottom:1%;
+    background-color: rgb(83, 83, 83);
+    transition:0.3s all;
+    font-weight:bold;
+    color:gold;
+    
+}
+.col-sm-6:hover {
+    color:white !important;
+    background-color: gold;
+}
+
+.down{
+color:black;
+transition:0.3s all;
+}
+.down:hover{
+    color:white;
+    }
+
+.section-head{
+    font-size:25px;
+    
+}
+
+.section-content{
+    width:95%; padding-top: 10px; padding-bottom: 10px; font-size: 15px; margin-bottom: 30px;
+    color:black;
+}
+.img3{
+    padding:20px 0;
+}
+.imglast{
+    margin:65px 0;
+}
+@media(max-width:870px){
+    .certi-slide{
+      
+        border-radius: 0;
+        max-width: unset;
+      
+    }
+
+    .faq{
+        max-width:90%;
+    }
+}
+
+@media(max-width:600px){
+    .img3{
+        height:230px;
+        padding:0;
+        margin:30px 0;
+    }
+    .imglast{
+        height:130px;
+        margin:80px 0;
+    }
+}
+
+@media(max-width:425px){
+    .img3{
+        height:180px;
+        padding:0;
+        margin:60px 0;
+    }
+    .imglast{
+        height:90px;
+        margin:100px 0;
+    }
+
+    .faq{
+        max-width:100%;
+        padding-left:0;
+        padding-right: 0;
+    }
+    a.nav-link{
+        padding:5px;
+        font-size:14px;
+    }
+    #accordion{
+        padding:0 10px;
+    }
+}
