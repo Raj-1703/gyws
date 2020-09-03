@@ -233,13 +233,15 @@ body {
     }
 
     #vision{
+        padding-top: 60px !important;
         padding-bottom: 0 !important;
     }
     #implementation{
         padding-bottom: 0 !important;
     }
     #vision,#footer p{
-        padding:20px !important;
+        padding-left:20px !important;
+        padding-right: 20px !important;
     }
     .imp{
         margin-bottom: 0 !important;
