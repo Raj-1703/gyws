@@ -1,0 +1,239 @@
+body{
+    font-family: 'Montserrat';
+    
+    
+}
+h3{
+    font-weight: bold;
+}
+.certificates{
+padding-top:8%;
+padding-bottom:4%;
+}
+.certi-slide{
+    height: 300px;
+    max-width: 70%;
+  
+}
+.certi-head{
+    font-weight: bold;
+    font-size:36px;
+    color:black;
+}
+
+
+.btn{
+    white-space: normal;
+    font-weight: bold;
+}
+.links{
+    margin:0;
+    
+        background-image:linear-gradient(to left,rgb(0, 0, 0),rgba(0, 0, 0, 0.39),rgb(0, 0, 0)), url("../img/Gopali-Youth-Welfare-Societ.jpg");
+        background-size: cover;
+ background-position-y: 30%;
+    
+}
+.faq{
+    max-width:70%;
+    padding-top:5%;
+    padding-bottom:3%;
+}
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: white;
+    border-radius: unset;
+  
+}
+
+a.card-link.collapsed{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+a.carousel-control-next {
+    background-image: linear-gradient(to left, #343a40, transparent);
+
+}
+
+
+a.carousel-control-prev {
+    background-image: linear-gradient(to right, #343a40, transparent);
+   
+}
+
+a.card-link {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.card-body {
+    color: rgb(107, 107, 107);
+    font-size:12px;
+}
+
+a.nav-link.active.show {
+    background-color: gold;
+}
+a.nav-link {
+    background-color: #343a40;
+    transition:0.2s all;
+    padding:25px 10px;
+    color:white;
+    border: none !important;
+    border-radius: unset !important;
+}
+a.nav-link.active {
+    background-color: gold !important;
+}
+.nav-tabs .nav-link:hover {
+    background-color:#535c66;
+
+
+}
+
+.col-sm-6 {
+   padding-top:3%;
+   padding-bottom:1%;
+   background-color: #343a4086;
+    transition:0.3s all;
+    font-weight:500;
+    color:gold;
+    
+}
+
+
+.down{
+    color:gold;
+transition:0.3s all;
+margin-top:10px;
+display: inline-flex;
+}
+.down:hover{
+   
+    color:white;
+    }
+
+.section-head{
+    font-size:25px;
+    color:gold;
+    padding-top:20px;
+}
+
+.section-content{
+    width:95%; padding-top: 20px; padding-bottom: 20px; 
+    font-size: 15px;
+    color:white;
+    margin:0;
+}
+.section-content1{
+    width:95%;  padding-bottom: 20px; 
+    font-size: 15px;
+    color:white;
+    margin:0;
+}
+
+
+.col-md-6 {
+    background-color: black;
+  
+  
+}
+a:hover{
+    text-decoration:none;
+}
+
+
+.carousel,
+.carousel-inner,
+.carousel-inner > .carousel-item {
+    overflow: hidden;
+}
+.carousel-inner > .carousel-item.active,
+.carousel-inner > .carousel-item-next {
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+}
+.carousel-inner:before {
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right: 82%;
+    left: 0;
+    content:"";
+    display:block;
+    background-color: #fff;
+    z-index: 2;
+}
+.carousel-inner:after {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 82%;
+    content:"";
+    display:block;
+    background-color:#fff;
+    z-index: 2;
+}
+
+
+.slide-arrow{
+    font-size:25px;
+}
+
+::before{
+    right:unset !important;
+}
+::after{
+    left:unset !important;
+}
+
+
+@media(max-width:870px){
+    .certi-slide{
+      
+        border-radius: 0;
+        max-width: unset;
+      
+    }
+
+    .img3{
+        height:150px;
+
+    }
+    .imglast{
+        height:100px;
+        
+    }
+
+    .faq{
+        max-width:90%;
+    }
+}
+@media (min-width: 768px)
+{
+.col-md-6 {
+    -webkit-box-flex: 0;
+    
+    flex: 0 0 50%;
+    max-width: 48%;
+    margin: 0% 1% 1% 1%;
+}
+}
+
+
+@media(max-width:519px){
+   
+
+    .faq{
+        max-width:100%;
+        padding-left:0;
+        padding-right: 0;
+    }
+  
+}
