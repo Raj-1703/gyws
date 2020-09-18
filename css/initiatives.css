@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+p{
+    font-weight:600;
+    font-size:14px;
+}
+h1{
+    font-size:44px;
+}
+h2{
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.top{
+    background-image:linear-gradient(to right,rgba(255, 217, 0, 0.267),rgba(255, 217, 0, 0.267)),url("../img/images.jpg");
+    background-size: cover;
+   background-position-y: 20%;
+
+}
+.black-back{
+    background-color: #aef5ae;
+    
+}
+.top-head{
+    font-size: 50px;
+    padding:90px 0;
+    color:white;
+    font-weight: bold;
+    margin-left:10%;
+}
+
+
+.left-back{
+background-color: #343a40;
+color:white;
+
+}
+.current-ini-head{
+    font-size:25px;
+    font-weight:bold;
+}
+a{
+    color:gold;
+    
+    transition:0.3s all;
+}
+a:hover{
+text-decoration-color: gold;
+    color:white !important;
+}
+g{
+    fill:gold;
+    transition:0.3s all;
+}
+g:hover{
+    fill:white;
+}
+i.fas.fa-school {
+    margin-bottom: 10px;
+}
+i.fas.fa-head-side-mask {
+    margin-bottom: 10px;
+}
+i.fas.fa-user-tie {
+    margin-bottom: 10px;
+}
+h2.temp-ini-head {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.col-md-4 {
+   
+    color: white;
+}
+.gray_color{
+    background-color:#343a40;
+    padding:5%;
+    border-radius: 2%;
+    height: 100%;
+}
+.temp-ini{
+    background-color: #d3d3d3;
+}
+.temp-ini-content{
+    font-size:13px;
+}
+.borders{
+    border-right:1px solid black;
+}
+.centered-modal{
+    top:50%;
+    transform:translateY(-50%) !important;
+}
+.modal-head{
+    background-color: #fed136;
+    border-radius:4px;
+}
+.show-modal{
+    color:white;
+    border:2px gold solid;
+    border-radius: 4px;
+outline:none !important;
+font-weight: bold;
+font-size:13px;
+    cursor: pointer;
+    background:transparent;
+    transition: 0.3s all;
+   
+}
+.show-modal:hover{
+   color:#343a40;
+    background-color:gold;
+   
+}
+.modal-body{
+    color:black;
+}
+.close{
+    font-size:20px;
+}
+.py-5{
+    padding-top:7% !important;
+   
+}
+section.current-ini.pt-5.text-center {
+    padding-top: 7% !important;
+}
+@media(max-width:767px){
+    h1.top-head {
+        text-align: center;
+        
+        margin: 0;
+    }
+    .col-md-6.pb-4 {
+        padding: 0 !important;
+    }
+    .col-md-6.pt-4 {
+        padding: 0 !important;
+    }
+    .gray_color {
+    
+        padding: 7%;
+        border-radius: 0%;
+    }
+    .col-md-4 {
+        padding: 0;
+    }
+}
