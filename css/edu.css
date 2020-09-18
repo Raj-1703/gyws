@@ -13,6 +13,7 @@ body{
 p{
     font-size:14px;
     line-height: 1.75;
+    font-weight: 500;
 }
 h1{
     font-size:32px !important;
@@ -26,11 +27,11 @@ h1{
     background-image:linear-gradient(
         to bottom,
         rgba(255, 255, 255, 0.986),40%,
-        rgba(255, 255, 255, 0)),url("../img/chalks.jpg");
+        rgba(255, 255, 255, 0)),url("chalks.jpg");
     height: 70vh;
     background-position: 60%;
     background-size: cover;
-    text-align: center;
+   
 }
 
 .back-color{
@@ -45,12 +46,12 @@ h1{
     color:rgb(255, 252, 47);
    font-size:50px !important;
    font-weight: bold;
-   letter-spacing: 7px;
-    top:50%;
+   letter-spacing: 2px;
+    top:40%;
    
     margin:0;
-    left:50%;
-    transform:translate(-50%,-50%);
+  margin-left:6%;
+    transform:translateY(-50%);
 }
 .quote{
     position: absolute;
@@ -68,16 +69,20 @@ h1{
 
 .row{
     margin:0;
- 
+ display: flex;
     font-size:120%;
-    padding:30px 65px;
+
 }
 .inno-sub{
-    padding:50px 65px 10px 65px;
+    padding:80px 65px 10px 65px;
 }
+
+.last-sec{
+    padding-top:80px; 
+  }
 .sub-section-head{
 margin-bottom:30px;
-color:rgb(219, 219, 219);
+
 }
 .sub-head{
     font-weight: bold;
@@ -105,32 +110,21 @@ color:rgb(219, 219, 219);
 }
 
 
-.image{
-    background-image:linear-gradient(to left,rgb(0, 0, 0),rgba(0, 0, 0, 0.39),rgb(0, 0, 0)), url("../img/board.jpg");
-    background-size: cover;
-background-attachment: fixed;
-}
 
 .color_yellow{
     color:#f8cc2c;
 }
 .color_white{
-    color:rgb(207, 206, 206);
+    color:rgb(255, 255, 255);
 }
 
 .color_gray{
-    background-color:#fed33698;
-    color:#212122;
+ 
+   background-color:#343a40;
 }
 
 
 
-.last-sec{
-   padding:60px 0;
-   color:#fed136;
-   
-   
- }
 
 .change_back{
   
@@ -139,17 +133,17 @@ background-attachment: fixed;
 .flex{
     display:flex;
     padding:0;
-  
-    background-color: #343a40;
+    background-color:#343a40;
+ 
     z-index:-2;
 }
-#hover,#hover-2{
+#hover,#hover2{
     transition:0.2s all;
     z-index: 10;
     color:rgb(255, 255, 255);
 }
 .last-intro{
-    padding:30px 60px;
+    padding:10px 30px;
 }
 #highlight,#highlight-2{
     padding:10px 0;
@@ -179,7 +173,12 @@ background-attachment: fixed;
     transform:translateY(-50%) !important;
 }
 
-
+.green_color{
+    background-color: #90ee90;
+}
+.col-sm-12.py-5.px-4 {
+    background-color: #d3d3d3;
+}
 
 /*media queries*/
 
@@ -189,10 +188,22 @@ background-attachment: fixed;
     }
 
     .top{
-        height:100vh;
+      
+        text-align:center;
+        
     }
     .quote{
         top:75%;
+    }
+    .heading{
+        top:40%;
+   
+     
+        transform:translate(-50%,-50%);
+        margin-left:0;
+        left:50%;
+      
+        
     }
 
 }
@@ -201,12 +212,7 @@ background-attachment: fixed;
 
 
 @media(max-width:768px){
-    .jnv{
-       display:block;
-       }
-
-
-    .display{
+      .display{
         display: inline-flex;
     }
     .width{
@@ -219,21 +225,17 @@ background-attachment: fixed;
 #hover,#hover-2{
     width:100%;
 }
-.heading{
-    font-size:40px !important;
-}
+
 .inno-sub{
-    padding:50px 30px 10px 30px;
+    padding:80px 30px 0px 30px;
 }
-.row{
-    padding:30px;
-}
+
 .quote{
     display: table;
 }
 .last-sec{
     text-align: center;
-
+padding-top:80px;
 }
 .sub-head{
     font-size:30px !important;
@@ -251,7 +253,7 @@ h2{
     background-color:#fed136;
 }
 #highlight-2{
-    background-color:#fed136;
+    background-color:#fed136 !important;
 }
 }
 
@@ -267,9 +269,7 @@ h2{
 .inno-sub{
     padding:20px 10px;
 }
-.row{
-    padding:10px;
-}
+ 
 .last-sec{
     padding:20px 0;
 
@@ -290,7 +290,7 @@ h2{
     font-size:19px !important;
 }
 p{
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-weight: unset;
 }
 .collab{
@@ -303,7 +303,7 @@ p{
 }
 .heading{
     letter-spacing: 0;
-    font-size: 33px !important;
+    font-size: 42px !important;
 }
 
 }
