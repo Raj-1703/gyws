@@ -1,0 +1,158 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+.row{
+    margin:0;
+}
+p{
+    font-family: Montserrat, sans-serif;
+}
+section.donate.text-center {
+    padding-top:10%;
+    padding-bottom: 50px;
+    
+}
+.funds{
+    width:80%;
+    margin:0 auto;
+    padding:50px 0;
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+
+.slick-prev:before, .slick-next:before{
+    color:black !important;
+}
+
+
+
+a.nav-link {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    background-color: #343a40;
+    transition: 0.2s all;
+    padding: 25px 10px;
+    color: white;
+    border: none !important;
+    border-radius: unset !important;
+}
+a.nav-link:hover{
+    background-color: #535c66;
+
+}
+a.nav-link.active {
+    background-color: gold !important;
+}
+.card{
+    border:none;
+    font-family: Montserrat, sans-serif;
+}
+.card-header {
+    background-color: white;
+  border-bottom: 1px rgba(0, 0, 0, 0.205) solid;
+}
+a.card-link {
+    color: black;
+    font-size:14px;
+}
+a.card-link:active {
+    color: black;
+}
+.card-body {
+    font-size: 13px;
+}
+section.fund-content.text-center {
+    background-color:#d3d3d3;
+    display: flex;
+    padding:50px 20px;
+}
+.vector{
+    color:#fed136;
+}
+section.container.faq {
+    padding: 50px 0;
+    width:60%;
+}
+.ini-img{
+    width:100%;
+}
+
+
+.donate-button{
+   margin: 3% 4% 0 4%;
+   border: 2px transparent solid;
+   font-family: Montserrat, sans-serif;
+   cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 1% 3%;
+    font-size: 15px;
+    background-color: #fdb900;
+}
+.donate-button:focus{
+  outline: none;
+ }
+
+.donate-button:hover{
+   
+     border: 2px #fdb900 solid;
+     color: #fdb900;
+     background-color: transparent;
+ }
+ .col-lg-3.col-md-6.col-sm-6 {
+    margin-bottom: 50px;
+}
+h2.donate-head {
+   
+    font-weight: bold;
+    font-size:30px;
+    margin-bottom: 30px;
+}
+.top {
+    background-image:linear-gradient(to right,
+    #a5cfa569,
+    #a5cfa569),url(../img/top.jpg);
+    background-size: cover;
+    background-position:center;
+}
+h1.top-head {
+    padding: 150px 5%;
+    color: #fdb900;
+    font-size: 42px;
+    margin: 0;
+    font-weight: bold;
+}
+p.para{
+    font-size: 15px;
+}
+.col-md-4 {
+    margin-bottom: 40px;
+}
+@media(max-width:768px){
+    section.container.faq {
+        
+        width: unset;
+    }
+    a.nav-link {
+        padding: 15px 10px;
+    }
+}
+@media(max-width:582px){
+    .top{
+        text-align: center;
+    }
+    h1.top-head{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
