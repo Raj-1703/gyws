@@ -1702,7 +1702,7 @@ li::marker {
     height: 10px;
     border-radius: 100%;
     position: absolute;
-    top: 130px !important;
+    top: 0px !important;
     left: 36px !important;
   }
   .ps-timeline-sec .container ol:after {
@@ -1791,7 +1791,7 @@ li::marker {
     width: 100% !important;
     margin: 0 auto !important;
     margin-top: 0px !important;
-    font-size: 2em !important;
+    font-size: 1.25em !important;
   }
   .ps-timeline-sec .container ol.ps-timeline li .ps-top {
     width: 60% !important;
