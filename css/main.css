@@ -1827,7 +1827,7 @@ li::marker {
   top: 49.5%;
 }
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 390px 0;
+  margin: 100px 0;
   padding: 0;
   border-top: 2px solid #fed136;
   list-style: none;
@@ -1849,7 +1849,7 @@ li::marker {
   text-align: center;
   line-height: 50px -10;
   color: #212529;
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: normal;
   position: absolute;
   top: -26px;
