@@ -1716,10 +1716,10 @@ li::marker {
     left: 36px;
   }
   .ps-timeline-sec .container ol.ps-timeline {
-    margin: 130px 0 !important;
+    margin: 50px 0 !important;
     border-left: 2px solid #fed136;
     padding-left: 0 !important;
-    padding-top: 120px !important;
+    padding-top: 40px !important;
     border-top: 0 !important;
     margin-left: 25px !important;
   }
