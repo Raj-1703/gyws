@@ -173,6 +173,9 @@ margin-bottom:30px;
     transform:translateY(-50%) !important;
 }
 
+.modal-body{
+	background-color: #FFE598;
+}
 .green_color{
     background-color: #90ee90;
 }
